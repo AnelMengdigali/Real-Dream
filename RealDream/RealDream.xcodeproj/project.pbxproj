@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0AD51E24C61F6200E068FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD51D24C61F6200E068FA /* AppDelegate.swift */; };
+		DE0AD52324C61F6200E068FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0AD52124C61F6200E068FA /* Main.storyboard */; };
+		DE0AD52524C61F6300E068FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0AD52424C61F6300E068FA /* Assets.xcassets */; };
+		DE0AD52824C61F6300E068FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0AD52624C61F6300E068FA /* LaunchScreen.storyboard */; };
+		DE0AD53324C61F6400E068FA /* RealDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD53224C61F6400E068FA /* RealDreamTests.swift */; };
+		DE0AD53E24C61F6400E068FA /* RealDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD53D24C61F6400E068FA /* RealDreamUITests.swift */; };
+		DE73B2DA24C8AF9C001AFEE2 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73B2D924C8AF9C001AFEE2 /* Wage.swift */; };
+		DE73B2DC24C8B4F2001AFEE2 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73B2D924C8AF9C001AFEE2 /* Wage.swift */; };
+		DE73B2E024C8C297001AFEE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73B2DF24C8C297001AFEE2 /* ViewController.swift */; };
+		DE73B2E424C8C4CD001AFEE2 /* Currencytxt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73B2E324C8C4CD001AFEE2 /* Currencytxt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0AD52F24C61F6400E068FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0AD51224C61F6200E068FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0AD51924C61F6200E068FA;
+			remoteInfo = RealDream;
+		};
+		DE0AD53A24C61F6400E068FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0AD51224C61F6200E068FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0AD51924C61F6200E068FA;
+			remoteInfo = RealDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0AD51A24C61F6200E068FA /* RealDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0AD51D24C61F6200E068FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE0AD52224C61F6200E068FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE0AD52424C61F6300E068FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0AD52724C61F6300E068FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE0AD52924C61F6300E068FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0AD52E24C61F6400E068FA /* RealDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0AD53224C61F6400E068FA /* RealDreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealDreamTests.swift; sourceTree = "<group>"; };
+		DE0AD53424C61F6400E068FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0AD53924C61F6400E068FA /* RealDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0AD53D24C61F6400E068FA /* RealDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealDreamUITests.swift; sourceTree = "<group>"; };
+		DE0AD53F24C61F6400E068FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE73B2D924C8AF9C001AFEE2 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		DE73B2DF24C8C297001AFEE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE73B2E324C8C4CD001AFEE2 /* Currencytxt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencytxt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0AD51724C61F6200E068FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD52B24C61F6400E068FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD53624C61F6400E068FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0AD51124C61F6200E068FA = {
+			isa = PBXGroup;
+			children = (
+				DE0AD51C24C61F6200E068FA /* RealDream */,
+				DE0AD53124C61F6400E068FA /* RealDreamTests */,
+				DE0AD53C24C61F6400E068FA /* RealDreamUITests */,
+				DE0AD51B24C61F6200E068FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0AD51B24C61F6200E068FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0AD51A24C61F6200E068FA /* RealDream.app */,
+				DE0AD52E24C61F6400E068FA /* RealDreamTests.xctest */,
+				DE0AD53924C61F6400E068FA /* RealDreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0AD51C24C61F6200E068FA /* RealDream */ = {
+			isa = PBXGroup;
+			children = (
+				DE73B2DB24C8B054001AFEE2 /* Controller */,
+				DE73B2D824C8AF81001AFEE2 /* Model */,
+				DE0AD54B24C61F7600E068FA /* Views */,
+				DE0AD51D24C61F6200E068FA /* AppDelegate.swift */,
+				DE0AD52124C61F6200E068FA /* Main.storyboard */,
+				DE0AD52424C61F6300E068FA /* Assets.xcassets */,
+				DE0AD52624C61F6300E068FA /* LaunchScreen.storyboard */,
+				DE0AD52924C61F6300E068FA /* Info.plist */,
+			);
+			path = RealDream;
+			sourceTree = "<group>";
+		};
+		DE0AD53124C61F6400E068FA /* RealDreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0AD53224C61F6400E068FA /* RealDreamTests.swift */,
+				DE0AD53424C61F6400E068FA /* Info.plist */,
+			);
+			path = RealDreamTests;
+			sourceTree = "<group>";
+		};
+		DE0AD53C24C61F6400E068FA /* RealDreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0AD53D24C61F6400E068FA /* RealDreamUITests.swift */,
+				DE0AD53F24C61F6400E068FA /* Info.plist */,
+			);
+			path = RealDreamUITests;
+			sourceTree = "<group>";
+		};
+		DE0AD54B24C61F7600E068FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE73B2E324C8C4CD001AFEE2 /* Currencytxt.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE73B2D824C8AF81001AFEE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE73B2D924C8AF9C001AFEE2 /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE73B2DB24C8B054001AFEE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE73B2DF24C8C297001AFEE2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0AD51924C61F6200E068FA /* RealDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0AD54224C61F6400E068FA /* Build configuration list for PBXNativeTarget "RealDream" */;
+			buildPhases = (
+				DE0AD51624C61F6200E068FA /* Sources */,
+				DE0AD51724C61F6200E068FA /* Frameworks */,
+				DE0AD51824C61F6200E068FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealDream;
+			productName = RealDream;
+			productReference = DE0AD51A24C61F6200E068FA /* RealDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0AD52D24C61F6400E068FA /* RealDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0AD54524C61F6400E068FA /* Build configuration list for PBXNativeTarget "RealDreamTests" */;
+			buildPhases = (
+				DE0AD52A24C61F6400E068FA /* Sources */,
+				DE0AD52B24C61F6400E068FA /* Frameworks */,
+				DE0AD52C24C61F6400E068FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0AD53024C61F6400E068FA /* PBXTargetDependency */,
+			);
+			name = RealDreamTests;
+			productName = RealDreamTests;
+			productReference = DE0AD52E24C61F6400E068FA /* RealDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0AD53824C61F6400E068FA /* RealDreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0AD54824C61F6400E068FA /* Build configuration list for PBXNativeTarget "RealDreamUITests" */;
+			buildPhases = (
+				DE0AD53524C61F6400E068FA /* Sources */,
+				DE0AD53624C61F6400E068FA /* Frameworks */,
+				DE0AD53724C61F6400E068FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0AD53B24C61F6400E068FA /* PBXTargetDependency */,
+			);
+			name = RealDreamUITests;
+			productName = RealDreamUITests;
+			productReference = DE0AD53924C61F6400E068FA /* RealDreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0AD51224C61F6200E068FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = anelapplab;
+				TargetAttributes = {
+					DE0AD51924C61F6200E068FA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DE0AD52D24C61F6400E068FA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DE0AD51924C61F6200E068FA;
+					};
+					DE0AD53824C61F6400E068FA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DE0AD51924C61F6200E068FA;
+					};
+				};
+			};
+			buildConfigurationList = DE0AD51524C61F6200E068FA /* Build configuration list for PBXProject "RealDream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0AD51124C61F6200E068FA;
+			productRefGroup = DE0AD51B24C61F6200E068FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0AD51924C61F6200E068FA /* RealDream */,
+				DE0AD52D24C61F6400E068FA /* RealDreamTests */,
+				DE0AD53824C61F6400E068FA /* RealDreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0AD51824C61F6200E068FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0AD52824C61F6300E068FA /* LaunchScreen.storyboard in Resources */,
+				DE0AD52524C61F6300E068FA /* Assets.xcassets in Resources */,
+				DE0AD52324C61F6200E068FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD52C24C61F6400E068FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD53724C61F6400E068FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0AD51624C61F6200E068FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE73B2DA24C8AF9C001AFEE2 /* Wage.swift in Sources */,
+				DE73B2E024C8C297001AFEE2 /* ViewController.swift in Sources */,
+				DE0AD51E24C61F6200E068FA /* AppDelegate.swift in Sources */,
+				DE73B2E424C8C4CD001AFEE2 /* Currencytxt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD52A24C61F6400E068FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0AD53324C61F6400E068FA /* RealDreamTests.swift in Sources */,
+				DE73B2DC24C8B4F2001AFEE2 /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0AD53524C61F6400E068FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0AD53E24C61F6400E068FA /* RealDreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0AD53024C61F6400E068FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0AD51924C61F6200E068FA /* RealDream */;
+			targetProxy = DE0AD52F24C61F6400E068FA /* PBXContainerItemProxy */;
+		};
+		DE0AD53B24C61F6400E068FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0AD51924C61F6200E068FA /* RealDream */;
+			targetProxy = DE0AD53A24C61F6400E068FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE0AD52124C61F6200E068FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0AD52224C61F6200E068FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE0AD52624C61F6300E068FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0AD52724C61F6300E068FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE0AD54024C61F6400E068FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0AD54124C61F6400E068FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0AD54324C61F6400E068FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anelapplab.RealDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0AD54424C61F6400E068FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anelapplab.RealDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0AD54624C61F6400E068FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anelapplab.RealDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealDream.app/RealDream";
+			};
+			name = Debug;
+		};
+		DE0AD54724C61F6400E068FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anelapplab.RealDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealDream.app/RealDream";
+			};
+			name = Release;
+		};
+		DE0AD54924C61F6400E068FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anelapplab.RealDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealDream;
+			};
+			name = Debug;
+		};
+		DE0AD54A24C61F6400E068FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anelapplab.RealDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealDream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0AD51524C61F6200E068FA /* Build configuration list for PBXProject "RealDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0AD54024C61F6400E068FA /* Debug */,
+				DE0AD54124C61F6400E068FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0AD54224C61F6400E068FA /* Build configuration list for PBXNativeTarget "RealDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0AD54324C61F6400E068FA /* Debug */,
+				DE0AD54424C61F6400E068FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0AD54524C61F6400E068FA /* Build configuration list for PBXNativeTarget "RealDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0AD54624C61F6400E068FA /* Debug */,
+				DE0AD54724C61F6400E068FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0AD54824C61F6400E068FA /* Build configuration list for PBXNativeTarget "RealDreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0AD54924C61F6400E068FA /* Debug */,
+				DE0AD54A24C61F6400E068FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0AD51224C61F6200E068FA /* Project object */;
+}
